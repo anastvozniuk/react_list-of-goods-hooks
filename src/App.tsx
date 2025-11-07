@@ -31,7 +31,7 @@ export const App: React.FC = () => {
 
     if (searchQuery.trim()) {
       result = result.filter(good =>
-        good.toLowerCase().includes(searchQuery.toLowerCase())
+        good.toLowerCase().includes(searchQuery.toLowerCase()),
       );
     }
 
